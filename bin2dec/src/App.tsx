@@ -32,7 +32,9 @@ function App() {
         <input className='submit' type="submit" />
       </form>
       <br />
-      <h3 className='result'>Seu numero convertido é : <span> {result && result} </span></h3>
+      {result &&
+        <h3 className='result'>Seu numero convertido é : <span> {result && result} </span></h3>
+      }
     </div>
   )
 }

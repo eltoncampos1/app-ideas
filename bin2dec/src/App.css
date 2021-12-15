@@ -31,6 +31,14 @@
   border: none;
   border-radius: .5rem;
   margin-left: 2rem;
+  cursor: pointer;
+
+  transition: .4s ease;
+}
+
+
+.submit:hover {
+  filter: brightness(.7);
 }
 
 .result {

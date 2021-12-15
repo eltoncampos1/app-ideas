@@ -7,6 +7,6 @@ type InputProps = {
 
 export const Input = ({ value, onChange }: InputProps) => {
     return (
-        <input autoFocus className={styled.input} onChange={onChange} value={value} type="text" placeholder="Enter your binary number" />
+        <input autoFocus className={styled.input} onChange={onChange} value={value} type="text" placeholder="Digite seu binário" />
     )
 }
